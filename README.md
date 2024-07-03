@@ -1,1 +1,8 @@
-# closed-loop-FDM-printer
+# Development of a Closed-loop Control System for the Movements of the Extruder and Platform of a FDM 3D Printing System
+
+## Abstract
+Most 3D printing systems work with control systems that can be considered open-loop, having little or no feedback to ensure appropriate movements or material output. With openloop control, 3D printing systems (low-end printers more significantly) are susceptible to factors that cannot be measured or corrected and result in errors during the printing process. Failures in mechanical fittings, jams on the movement system, loss of steps in step motors and external perturbations are some common situations during the printing process and can cause displacement of layers, that ultimately means, producing defective pieces. To achieve closed-loop control in 3D printing systems, the work reported addresses closing the loop on the positioning of the nozzle and building platform. This is performed using an independent microcontroller to read the signals sent from the printer controller board (RAMPS 1.4), which correspond to the desired positions and compares it with the signals coming from three linear optical encoders located in the x, y and z axes of the 3D printer, providing the current relative position of the head and the printing platform. The comparison generates a control action to reduce the error, following the target trajectory. A continuous monitoring of the movements throughout the printing process, ensures a more accurate positioning against possible disturbances, which means a significant saving of time, material and money. This work is applied to an FDM 3D printer but can be extended to other printing techniques or CNC machines improving both the machines and the fabricated pieces.
+
+![Gif demo](gif-test.gif)
+
+[See online](https://library.imaging.org/print4fab/articles/34/1/art00041_1)
