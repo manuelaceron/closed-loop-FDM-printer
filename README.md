@@ -5,4 +5,4 @@ Most 3D printing systems work with control systems that can be considered open-l
 
 ![Gif demo](gif-test.gif)
 
-[See online](https://library.imaging.org/print4fab/articles/34/1/art00041_1)
+Manuela F. Cerón Viveros, Alvaro J. Rojas Arciniegas, "Development of a Closed-loop Control System for the Movements of the Extruder and Platform of a FDM 3D Printing System"  in Proc. IS&T Printing for Fabrication: Int'l Conf. on Digital Printing Technologies (NIP34),  2018,  pp 176 - 181, [DOI: 10.2352/ISSN.2169-4451.2018.34.176](https://library.imaging.org/print4fab/articles/34/1/art00041_1)
